@@ -1,0 +1,48 @@
+li{
+	list-style:none
+}
+button{
+	color:black;
+	width:35px;
+	height:30px;
+	background-color:#B9E8EE;
+	border-color:#B9E8EE;
+}
+#Enter{
+	width:72px;
+}
+input{
+	box-sizing:border-box;
+	margin-left:100px;
+	margin-right:1050px;
+	width:190px;
+	height:30px;
+	background-color:white;
+}
+h3{
+	color:#108392;
+	background-color:#E7F5F7;
+}
+h1{
+	box-sizing:border-box;
+	margin-left:100px;
+	margin-right:1050px;
+	color:#108392;
+	background-color:#E7F5F7;
+	text-align:center;
+}
+section{
+	box-sizing:border-box;
+	margin-left:100px;
+	margin-right:1050px;
+	color:black;
+	background-color:#A7E6ED;
+	border-color:#A7E6ED;
+}
+#pila{
+	box-sizing:border-box;
+	margin-left:100px;
+	margin-right:1050px;
+	color:black;
+	background-color:white;
+}
