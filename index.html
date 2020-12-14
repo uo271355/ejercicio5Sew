@@ -16,11 +16,13 @@
 <br>
 <section>
 <h3>RPN calculadora</h3>
+<div>
 <button  value="xʸ" id="xʸ" onclick="pila.pow();
 							document.getElementById('pila').innerHTML=pila.mostrar()">xʸ</button>
 <button  value="10ͯ" id="10ͯ" onclick="pila.pow10();
 							document.getElementById('pila').innerHTML=pila.mostrar()">10ͯ</button>
-<br>
+</div>
+<div>
 <button  value="x²" id="x²" onclick="pila.pow2();
 							document.getElementById('pila').innerHTML=pila.mostrar()">x²</button>
 <button  value="√" id="√" onclick="pila.raiz();
@@ -30,7 +32,8 @@
 <button  value="Exp" id="Exp" onclick="pila.exp();
 							document.getElementById('pila').innerHTML=pila.mostrar()">Exp</button>
 <button  value="π" id="π" onclick="pila.apilar('π')">π</button>
-<br>
+</div>
+<div>
 
 <button  value="n!" id="n!" onclick="pila.factorial();
 							document.getElementById('pila').innerHTML=pila.mostrar()">n!</button>
@@ -41,7 +44,8 @@
 <button  value=""  onclick="pila.borrar()">—</button>
 <button  value="/" id="/" onclick="pila.dividir();
 							document.getElementById('pila').innerHTML=pila.mostrar()">/</button>
-<br>
+</div>
+<div>
 <button  value="sin" id="sin" onclick="pila.sin();
 							document.getElementById('pila').innerHTML=pila.mostrar()">sin</button>
 <button  value="7" id="7" onclick="pila.apilar(7)">7</button>
@@ -49,7 +53,8 @@
 <button  value="9" id="9" onclick="pila.apilar(9)">9</button>
 <button  value="*" id="*" onclick="pila.multiplicar();
 							document.getElementById('pila').innerHTML=pila.mostrar()">*</button>
-<br>
+</div>
+<div>
 <button  value="cos" id="cos" onclick="pila.cos();
 							document.getElementById('pila').innerHTML=pila.mostrar()">cos</button>
 <button  value="4" id="4" onclick="pila.apilar(4)">4</button>
@@ -57,7 +62,8 @@
 <button  value="6" id="6" onclick="pila.apilar(6)">6</button>
 <button  value="-" id="-" onclick="pila.restar();
 							document.getElementById('pila').innerHTML=pila.mostrar()">-</button>
-<br>
+</div>
+<div>
 <button  value="tan" id="tan" onclick="pila.tan();
 							document.getElementById('pila').innerHTML=pila.mostrar()">tan</button>
 <button  value="1" id="1" onclick="pila.apilar(1)">1</button>
@@ -65,13 +71,16 @@
 <button  value="3" id="3" onclick="pila.apilar(3)">3</button>
 <button  value="+" id="+" onclick="pila.sumar();
 							document.getElementById('pila').innerHTML=pila.mostrar()">+</button>
-<br>
+</div>
+<div>
 <button  value="+-" id="+-" onclick="pila.masYMenos();
 							document.getElementById('pila').innerHTML=pila.mostrar()">+-</button>
 <button  value="0" id="0" onclick="pila.apilar(0)">0</button>
 <button  value="." id="." onclick="pila.apilar('.')">.</button>
 <button  value="Enter" id="Enter" onclick="pila.apilar('x');
 							document.getElementById('pila').innerHTML=pila.mostrar()">Enter</button>
+</div>
+
 </section>
 <br>
 <footer>
